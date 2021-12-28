@@ -9,7 +9,7 @@ def main(source="content", dest ="dist"):
         "dest": dest,
         "parsers": [ 
             ssg.parsers.ResourceParser(), 
-            ssg.parsers.MardownParser(),
+            ssg.parsers.MarkdownParser(),
             ssg.parsers.ReStructuredTextParser(),
             ],
 
