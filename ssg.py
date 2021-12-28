@@ -1,4 +1,4 @@
-import unitary_operator
+import typer
 from ssg.site import site
 
 def main(source="content", dest ="dist"):
